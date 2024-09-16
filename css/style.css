@@ -3,16 +3,45 @@ body{
     margin: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* main header */
-.main-header {
+.main-header{
     background-color: #4ea0fc;
     background-image: url(../img/pattern.png);
     background-repeat: repeat; 
     background-size: contain;
 }
 
-.logo {
+.logo{
     height: 45px;
     margin-top: 40px;
     margin-left: 5px;
+}
+
+/* article header */
+.article header{
+
+}
+
+.title{
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    color: #7d7d7d;
+}
+
+.datetime{
+    font-size: small;
+}
+
+.img-caption{
+    font-size: small;
 }
