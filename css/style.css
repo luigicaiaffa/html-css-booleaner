@@ -32,10 +32,13 @@ a {
 /* article header */
 .title {
     margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 .subtitle {
     color: #7d7d7d;
+    font-size: large;
 }
 
 .datetime {
@@ -47,6 +50,10 @@ a {
 }
 
 /* article content */
+.article-text{
+   font-size: large; 
+}
+
 .underline {
     background-color: yellow;
 }
@@ -78,4 +85,34 @@ a {
 .tr-due {
     text-align: left;
     background-color: white;
+}
+
+/* footer */
+.footer{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.img-uno, .img-due{
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: fit-content;
+    font-size: larger;
+    color: white;
+    font-weight: 900;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.img-uno{
+    background-image: url(../img/monitor.jpg);
+}
+
+.img-due{
+    background-image: url(../img/graph.jpg);
 }
