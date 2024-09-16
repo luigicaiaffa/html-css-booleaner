@@ -26,10 +26,6 @@ a{
 }
 
 /* article header */
-.article header{
-
-}
-
 .title{
     margin-bottom: 0px;
 }
@@ -44,4 +40,9 @@ a{
 
 .img-caption{
     font-size: small;
+}
+
+/* article content */
+.underline{
+    background-color: yellow;
 }
