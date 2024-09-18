@@ -1,4 +1,9 @@
 /* utils */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -11,29 +16,37 @@ a {
     text-decoration: none;
 }
 
-.article{
-    margin: 10px;
+article{
+    margin: 15px;
 }
 
+address{
+    font-style: normal;
+}
+
+
 /* main header */
+
 .main-header {
     background-color: #4ea0fc;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    background-size: contain;
+    background-size: 380px;
 }
 
 .logo {
-    height: 45px;
+    height: 55px;
     margin-top: 40px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
+
 /* article header */
+
 .title {
     margin-bottom: 0px;
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .subtitle {
@@ -49,22 +62,21 @@ a {
     font-size: small;
 }
 
+
 /* article content */
+
 .article-text{
    font-size: large; 
 }
 
-.underline {
-    background-color: yellow;
+.ul-list{
+    padding: 0;
+    list-style-position: inside;
 }
 
-.ul-list{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-}
 
 /* tabella */
+
 .table {
     width: 100%;
     table-layout: fixed;
@@ -87,25 +99,25 @@ a {
     background-color: white;
 }
 
+
 /* footer */
-.footer{
+
+.aside{
     color: #757575;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .img-uno, .img-due{
     background-size: contain;
     background-repeat: no-repeat;
-    max-width: fit-content;
-    font-size: larger;
     color: white;
-    font-weight: 900;
-    padding-right: 100px;
-    padding-bottom: 150px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+    padding: 12px;
     margin-top: 10px;
 }
 
